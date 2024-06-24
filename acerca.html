@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principal</title>
+    <link href="assets/css/bootstrap2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/miestilo.css" />
+
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            /* Ajusta la imagen para cubrir el contenedor */
+        }
+        
+        body,
+        html {
+            height: 100%;
+        }
+        
+        .bg-construction {
+            background: url('') no-repeat center center;
+            background-size: cover;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        
+        .footer-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-green">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="Logo" /> Relojes Creativos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienessomos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catálogo
+              </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="construccion.html">Relojes de Pared</a
+                  >
+                </li> 
+                
+                <li>
+                  <a class="dropdown-item" href="construccion.html">Relojes de Mesa</a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Ingrese aqui" />
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Buscar
+            </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center bg-light p-5">
+        <h1 class="display-4">Acerca de Relojes Creativos</h1>
+        <p class="lead">Relojes Creativos es una empresa familiar con trayectoria en el medio que se dedica a la creación y venta de relojes de pared y de mesa, brindando la mejor atención a sus clientes.</p>
+        <hr class="my-4">
+        <p>Ubicado en el centro de la ciudad, para ayudarte a encontrar el mejor estilo que va con vos.</p>
+        <a class="btn btn-primary btn-lg" href="contacto.html" role="button">Contáctanos</a>
+    </div>
+
+
+
+    <!-- Ubicación -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Nuestra Ubicación</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Dirección</h5>
+                <p>Junín 990, Corrientes Capital</p>
+                <h5>Teléfono</h5>
+                <p>3795123456</p>
+                <h5>Correo Electrónico</h5>
+                <p>info@relojescreativos.com.ar</p>
+            </div>
+            <div class="col-md-6">
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid text-center text-white py-4 bg-green" data-bs-theme="dark">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#pregunta">Preguntas Frecuentes</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="quienessomos.html"
+            >Quiénes somos</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 mb-4 mb-md-0">
+      <p class="display-6">Relojes Creativos</p>
+    </div>
+    <div class="col-md-4">
+      <h5>Redes Sociales</h5>
+      <div class="footer-icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <img
+            src="assets/img/facebook.png"
+            alt="Facebook"
+            class="footer-icon"
+          />
+        </a>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="assets/img/x.png" alt="Twitter" class="footer-icon" />
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="assets/img/insta.png" alt="Instagram" class="footer-icon" />
+                        </a>
+                        
+            </div>
+        </div>
+        </div>
+        <div class="footer-content": 
+            <p>
+            Derechos de autor © 2024. Relojes Creativos. Todos los derechos reservados 
+            </p>        
+        </div>     
+    </footer>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery.js"></script>
+   
+    </script>
+</body>
+
+</html>
